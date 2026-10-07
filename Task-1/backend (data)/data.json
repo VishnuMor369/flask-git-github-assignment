@@ -1,6 +1,22 @@
 [
     {
-    "name" : "Dhruv",
-    "gmail" : "Dhruv@example.com"
+    "name" : "vishnu mor",
+    "gmail" : "vishnumor@example.com"
+    },
+    {
+        "name" : "dhruv bhanushali",
+        "gmail" : "dhruvbhanushali@example.com"
+    },
+    {
+        "name" : "Hardik Chawda",
+        "gmail" : "hardikchawda@gmail.com"
+    },
+    {
+        "name" : "Meet Dama",
+        "gmail" : "meetdama@example.com"
+    },
+    {
+        "name" : "Pari",
+        "gmail" : "pari@example.com"
     }
 ]
