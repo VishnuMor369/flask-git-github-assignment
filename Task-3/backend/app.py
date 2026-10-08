@@ -3,13 +3,14 @@ from pymongo import MongoClient
 from dotenv import load_dotenv
 import os
 
-load_dotenv()
+load_dotenv(override=True)
 
-client = MongoClient(os.getenv('MONGODB_URI'))
+mongo_uri = os.getenv("MONGODB_URI")
+client = MongoClient(mongo_uri)
 db = client.test
 collection = db['todo_collection']
 
-app = Flask(__name__)
+app = Flask(__name__ ,template_folder="../frontend/templates")
 
 
 @app.route('/')
